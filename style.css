@@ -7,6 +7,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+
 hr {
     border: solid 1px #D1D1D1;
 }
@@ -105,11 +106,13 @@ main {
     grid-gap: 24px;
     border-radius: 5px;
 }
+
 .course {
     box-shadow: 1px 1px 10px rgb(243, 241, 241);
     border-radius: 5px;
     padding-bottom: 16px;
 }
+
 .course-info {
     display: flex;
     align-items: center;
@@ -130,7 +133,7 @@ main {
     padding-left: 11px;
     padding-right: 17.42px;
     padding-bottom: 19.23px;
-    
+
 }
 
 .fa-star {
@@ -156,4 +159,52 @@ main {
     border-radius: 14.69px;
     padding: 4px;
     color: #FF4D61;
+}
+
+
+
+/* media querries */
+/* For mobiles */
+@media only screen and (max-width:688px) {
+
+    .players,
+    .top-blogs,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player,
+    .blog {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* For Tablet */
+@media only screen and (max-width:992px) {
+
+    .players,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .courses {
+        display: grid;
+    }
 }
