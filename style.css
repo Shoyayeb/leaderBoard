@@ -1,6 +1,11 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 /* common style */
 body {
@@ -9,14 +14,15 @@ body {
 }
 
 hr {
-    border: solid 1px #D1D1D1;
+    border: none;
+    border-top: solid 1px #D1D1D1;
 }
 
 /* players style */
 .container {
     background-color: #FFFFFF;
     width: 870px;
-    padding: 30px;
+    padding: 4rem 2rem;
     margin-top: 21px;
     border-radius: 5px;
 }
@@ -71,26 +77,28 @@ main {
 
 .blog {
     display: flex;
+    align-items: center;
 }
 
 .blog .thumbnail img {
-    width: 177px;
-    height: 117px;
+    width: 230px;
+    height: 130px;
 }
 
 .blog-info {
     margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
 }
 
 .blog-title {
     font-size: 20px;
-
 }
 
 .blog-author {
     color: #9F9F9F;
     font-size: 16px;
-
 }
 
 .blog-author a {
