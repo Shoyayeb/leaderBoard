@@ -84,16 +84,15 @@ main {
 }
 
 .blog .thumbnail img {
-    width: 230px;
+    width: 200px;
     height: 130px;
 }
 
 .blog-info {
-    margin-left: 1.5rem;
+    margin-left: 1.2rem;
     display: flex;
     flex-direction: column;
     justify-items: flex-end;
-    width: 45%;
 }
 
 .blog-info h3{
@@ -116,6 +115,10 @@ main {
 }
 
 /* top courses */
+
+.container.container2{
+    margin-bottom: 2rem;
+}
 .courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -124,12 +127,12 @@ main {
 }
 
 .course {
-    box-shadow: 1px 1px 10px rgb(243, 241, 241);
+    box-shadow: 10px 10px 10px rgb(243, 241, 241);
     border-radius: 5px;
-    padding-bottom: 16px;
-    padding: 0 10px;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
 }
-
 .course-info {
     display: flex;
     align-items: center;
@@ -144,13 +147,8 @@ main {
 }
 
 .course .course-banner img {
-    width: 224px;
-    height: 104px;
-    padding-top: 13px;
-    padding-left: 11px;
-    padding-right: 17.42px;
+    width: 100%;
     padding-bottom: 19.23px;
-
 }
 
 .fa-star {
@@ -174,7 +172,7 @@ main {
 .course-duration {
     background: #FFE4E8;
     border-radius: 14.69px;
-    padding: 4px;
+    padding: .5rem 1rem;
     color: #FF4D61;
 }
 
