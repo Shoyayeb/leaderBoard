@@ -16,12 +16,17 @@ body {
 hr {
     border: none;
     border-top: solid 1px #D1D1D1;
+    margin-bottom: 2rem;
+}
+
+h2{
+    margin-bottom: 2rem;
 }
 
 /* players style */
 .container {
     background-color: #FFFFFF;
-    width: 870px;
+    width: 75%;
     padding: 4rem 2rem;
     margin-top: 21px;
     border-radius: 5px;
@@ -72,7 +77,7 @@ main {
 .top-blogs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
+    row-gap: 30px;
 }
 
 .blog {
@@ -86,10 +91,11 @@ main {
 }
 
 .blog-info {
-    margin-left: 16px;
+    margin-left: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-items: flex-end;
+    width: 45%;
 }
 
 .blog-title {
