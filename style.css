@@ -19,10 +19,6 @@ hr {
     margin-bottom: 2rem;
 }
 
-h2{
-    margin-bottom: 2rem;
-}
-
 /* players style */
 .container {
     background-color: #FFFFFF;
@@ -45,6 +41,7 @@ main {
     font-size: 24px;
     line-height: 36px;
     color: #562EFF;
+    margin-bottom: 3rem;
 }
 
 .top-players {
@@ -54,7 +51,8 @@ main {
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 30px;
+    row-gap: 3rem;
+    column-gap: 8rem;
 }
 
 .player {
@@ -96,6 +94,10 @@ main {
     flex-direction: column;
     justify-items: flex-end;
     width: 45%;
+}
+
+.blog-info h3{
+    padding-bottom: .5rem;
 }
 
 .blog-title {
